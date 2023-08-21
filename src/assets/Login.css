@@ -1,0 +1,47 @@
+.front-page{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+
+.btn{
+    margin: 1rem 0rem!important ;
+}
+
+form:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    /* margin: 1rem 0rem; */
+    font-size: 1rem;
+}
+
+form label{
+    margin: 1rem 0rem;
+}
+
+.form-input input{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
