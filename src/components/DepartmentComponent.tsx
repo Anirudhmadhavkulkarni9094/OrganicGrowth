@@ -98,7 +98,7 @@ function DepartmentListComponent() {
   };
 
   return (
-    <Paper style={{ padding: '10px', width: '250px', height: '100vh' }}>
+    <Paper style={{ padding: '10px' }}>
       <List>
         {departmentData.map((dept) => (
           <div key={dept.department}>

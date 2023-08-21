@@ -38,7 +38,7 @@ function SecondPage() {
   return (
     <div className='Content-2'>
       {auth ? (
-        <Paper style={{ height: "100vh", width: '100%' }}>
+        <Paper style={{  }}>
           <DataGrid rows={posts} columns={columns} />
         </Paper>
       ) : (
